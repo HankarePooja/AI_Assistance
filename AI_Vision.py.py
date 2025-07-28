@@ -345,7 +345,7 @@ def currency_det():
 
 
 def get_weather():
-    api_key = "e9f54be0915abb6f5a99218de12613ce"  # Make sure to keep this secure
+    api_key = "Open_Weather_api_key"  # Add your api key of open weather
     city = "Delhi"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
     try:
